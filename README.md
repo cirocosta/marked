@@ -3,7 +3,7 @@
 > A full-featured markdown parser and compiler, written in JavaScript. Built
 > for speed.
 
-[![NPM version](https://badge.fury.io/js/marked.png)][badge]
+This fork of [marked](https://github.com/chjj/marked) is a slower version of the originial as it exposes the inline code stuff to the lexer.
 
 ## Install
 
