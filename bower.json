@@ -1,15 +1,14 @@
 {
-  "name": "marked",
-  "version": "0.3.2",
-  "homepage": "https://github.com/chjj/marked",
-  "authors": [
-    "Christopher Jeffrey <chjjeffrey@gmail.com>"
-  ],
+  "name": "marked-wi",
+  "version": "0.3.3",
+  "homepage": "https://github.com/cirocosta/marked-wi",
   "description": "A markdown parser built for speed",
   "keywords": [
     "markdown",
-    "markup",
-    "html"
+    "markup"
+  ],
+  "authors": [
+    "Ciro S. Costa <ciro.costa@usp.br>"
   ],
   "main": "lib/marked.js",
   "license": "MIT",

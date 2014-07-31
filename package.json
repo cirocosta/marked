@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/cirocosta/marked-wi/issues"
   },
-  "homepage": "https://github.com/cirocosta/marked-wi"
+  "homepage": "https://github.com/cirocosta/marked-wi",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-browserify": "^0.5.0",
+    "gulp-uglify": "^0.3.1"
+  }
 }

@@ -1,4 +1,4 @@
-var marked = require('../');
+var marked = require('../../');
 var fs = require('fs');
 var path = require('path');
 
