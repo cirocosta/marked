@@ -8,7 +8,7 @@ This fork of [marked](https://github.com/chjj/marked) is a slower version of the
 ## Install
 
 ``` bash
-npm install marked-w-inline --save
+npm install marked-wi --save
 ```
 
 ## Usage
