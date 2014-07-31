@@ -1,5 +1,5 @@
 {
-  "name": "marked",
+  "name": "marked-wi",
   "description": "A markdown parser built for speed",
   "version": "0.3.2",
   "main": "./lib/marked.js",
@@ -9,18 +9,13 @@
     "markdown",
     "markup"
   ],
-  "directories": {
-    "doc": "doc",
-    "man": "man",
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cirocosta/marked-w-inline.git"
+    "url": "https://github.com/cirocosta/marked-wi.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/cirocosta/marked-w-inline/issues"
+    "url": "https://github.com/cirocosta/marked-wi/issues"
   },
-  "homepage": "https://github.com/cirocosta/marked-w-inline"
+  "homepage": "https://github.com/cirocosta/marked-wi"
 }
