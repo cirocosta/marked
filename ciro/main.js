@@ -12,6 +12,7 @@ fs.readFile(path.resolve(__dirname, 'md.md'),
 	if (err) throw err;
 
 	console.log(
-		Parser.parse(
-			Lexer.lex(data)));
+		JSON.stringify(
+			Parser.parse(
+				Lexer.lex(data)), undefined, 2));
 });

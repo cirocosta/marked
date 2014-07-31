@@ -1,6 +1,6 @@
 # Exemplo
 
-Este é um exemplo com `código` inline.
+Este é um exemplo com `código` inline e um `trecho`.
 
 ## Código Block Level
 
@@ -13,3 +13,4 @@ fs.readFile('teste', function (err, data) {
 
 	console.log(data.toString());
 });
+```
