@@ -1,6 +1,6 @@
 {
   "name": "marked-wi",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "homepage": "https://github.com/cirocosta/marked-wi",
   "description": "A markdown parser built for speed",
   "keywords": [
@@ -16,7 +16,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "app/bower_components",
+    "bower_components",
     "test",
     "tests"
   ]

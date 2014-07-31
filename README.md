@@ -14,22 +14,12 @@ npm install marked-wi --save
 ## Usage
 
 ```javascript
-var marked = require('../')
-  , fs = require('fs')
-  , path = require('path')
-  , Lexer = marked.Lexer
-  , Parser = marked.Parser;
+var data = document.querySelector('pre').innerHTML;
+var Lexer = marked.Lexer;
+var Parser = marked.Parser;
 
-fs.readFile(path.resolve(__dirname, 'md.md'),
-            {encoding: 'utf8'},
-            function (err, data) {
-
-  if (err) throw err;
-
-  console.log(
-    JSON.stringify(
-      Parser.parse(
-        Lexer.lex(data)), undefined, 2));
-});
+console.log(
+    Parser.parse(
+      Lexer.lex(data)));
 ```
 `Parser.parse()` returns an object just like `Lexer.lex()` but with the inline stuff that it found with the `InlineLexer` (notice that the `Parser` in the [original marked](https://github.com/chjj/marked) would return the rendered text, which is completly different from what we are doing here).
