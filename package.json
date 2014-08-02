@@ -1,7 +1,7 @@
 {
   "name": "marked-wi",
   "description": "A markdown parser built for speed",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "main": "./lib/marked.js",
   "preferGlobal": true,
   "license": "MIT",
