@@ -1,0 +1,17 @@
+[
+  {
+    "type": "heading",
+    "depth": 1,
+    "text": "Dahora"
+  },
+  {
+    "type": "paragraph",
+    "text": "text with inline `code` :)",
+    "inline": [
+      {
+        "type": "code",
+        "text": "`code`"
+      }
+    ]
+  }
+]
